@@ -55,7 +55,7 @@ DoorAccessory.prototype.setState = function(state, callback) {
 	this.log("Set state to %s", doorState);
 	
 	request.post({
-		url: this.url
+		url: this.controlurl
 	}, function(err, response, body) {
 		if (!err && response.statusCode == 200) {
 			this.log("State change complete.");

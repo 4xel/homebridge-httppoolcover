@@ -1,16 +1,15 @@
 {
   "name": "homebridge-httpdoor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTTP controlled door accessory plugin for Homebridge",
-  "author": {
-    "name": "support@EricConnerApps.com"
-  },
-    "keywords": [
-	"homebridge-plugin"
+  "license": "MIT",
+  "author": "Eric Conner <Eric@EricConnerApps.com>",
+  "keywords": [
+    "homebridge-plugin"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/EricConnerApps/homebridge-httpdoor"
+    "url": "git+https://github.com/EricConnerApps/homebridge-httpdoor.git"
   },
   "engines": {
     "node": ">=0.12.0",
@@ -18,5 +17,14 @@
   },
   "dependencies": {
     "request": "2.49.x"
+  },
+  "bugs": {
+    "url": "https://github.com/EricConnerApps/homebridge-httpdoor/issues"
+  },
+  "homepage": "https://github.com/EricConnerApps/homebridge-httpdoor#readme",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
