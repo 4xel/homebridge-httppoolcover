@@ -44,7 +44,7 @@ DoorAccessory.prototype.getState = function(callback) {
 			var closed = state == "closed"
 			callback(null, closed); // success
 		} else {
-			this.log("Error getting state (status code %s): %s", response.statusCode, err);
+			this.log("Error getting state: %s", err);
 			callback(err);
 		}
 	}.bind(this));

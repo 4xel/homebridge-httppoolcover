@@ -6,8 +6,8 @@ Example config.json:
 			"accessories": [{
 			"accessory": "Httpdoor",
 			"name": "Garage Door",
-			"controlurl": "your-control-custom-url",
-			"statusurl": "your-status-custom-url",
+			"controlURL": "your-control-custom-url",
+			"statusURL": "your-status-custom-url",
 		}]
 	}
 ```

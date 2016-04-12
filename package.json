@@ -1,6 +1,6 @@
 {
   "name": "homebridge-httpdoor",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "HTTP controlled door accessory plugin for Homebridge",
   "license": "MIT",
   "author": "Eric Conner <Eric@EricConnerApps.com>",
